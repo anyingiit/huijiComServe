@@ -3,9 +3,8 @@
 
 # HuijiComServe
 
-Huiji com serve is an empty repository that holds no code yet.
+HuijiComServe is anyingiit's archived project scaffold: the repository holds only GitHub templates, policy documents, and a CI starter workflow, with no application source to build or run.
 
-[![CI](https://github.com/anyingiit/huijiComServe/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/huijiComServe/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/anyingiit/huijiComServe)](LICENSE)
 
 [Report a bug](https://github.com/anyingiit/huijiComServe/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/anyingiit/huijiComServe/issues/new?template=feature_request.yml)
@@ -24,28 +23,30 @@ Huiji com serve is an empty repository that holds no code yet.
 
 ## About The Project
 
-Huiji com serve is an empty repository that holds no code yet.
+HuijiComServe is anyingiit's archived project scaffold. The repository's only commit added GitHub governance and template files — issue templates, [CODEOWNERS](.github/CODEOWNERS), [dependabot](.github/dependabot.yml) and [release](.github/release.yml) configuration, a CI workflow starter, a [pre-commit](.pre-commit-config.yaml) config, and the license, contributing, code of conduct, security, and changelog documents — without any application source, build manifest, or entry point.
 
-See the [open issues](https://github.com/anyingiit/huijiComServe/issues) for planned features and known issues.
+There is no application here to build or run; see [Prerequisites](#prerequisites) and [Usage](#usage) below for what that means in practice.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Git
+- [Git](https://git-scm.com/), to clone the repository.
+- [pre-commit](https://pre-commit.com/), only if you plan to run the hooks declared in [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
 
 ### Installation
 
+There is no package to build or install — this repository is scaffolding, not software. Get a local copy with:
+
 ```sh
 git clone https://github.com/anyingiit/huijiComServe.git
-cd huijiComServe
 ```
+
+If you intend to use the [pre-commit](https://pre-commit.com/) hooks, run `pre-commit install` afterwards.
 
 ## Usage
 
-```sh
-huijiComServe --help
-```
+There is nothing to run. No manifest, script, or entry point is declared anywhere in the tree — the [`.github/`](.github) directory (issue templates, CODEOWNERS, dependabot, release, and CI configuration) is the only content, and it exists to support future work on this project rather than to be executed itself.
 
 ## Contributing
 
